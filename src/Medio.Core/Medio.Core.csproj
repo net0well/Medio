@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+
+		<!-- Informações do pacote -->
+		<AssemblyName>Medio</AssemblyName>
+		<RootNamespace>Medio</RootNamespace>
+		<PackageId>Medio</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Wellington Neto</Authors>
+		<Description>Simple mediator implementation in .NET, in-process messaging with no dependencies.</Description>
+		<PackageTags>Mediator;MediatR</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+	</ItemGroup>
+
+</Project>

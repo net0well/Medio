@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="sample/SampleApi/SampleApi.csproj" Id="4b60b1c4-ebee-463c-abb7-1f8677c739b8" />
+  <Project Path="src/Medio.Core/Medio.Core.csproj" />
+  <Project Path="src/Medio.Tests/Medio.Tests.csproj" Id="f321fd7e-fda2-487a-9f2e-79d3825808db" />
+</Solution>
