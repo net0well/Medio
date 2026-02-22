@@ -5,13 +5,15 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Informações do pacote -->
-		<AssemblyName>Medio</AssemblyName>
-		<RootNamespace>Medio</RootNamespace>
 		<PackageId>Medio</PackageId>
 		<Version>1.0.0</Version>
-		<Authors>Wellington Neto</Authors>
-		<Description>Simple mediator implementation in .NET, in-process messaging with no dependencies.</Description>
-		<PackageTags>Mediator;MediatR</PackageTags>
+		<Authors>SeuNome</Authors>
+		<Description>Lightweight mediator for .NET with built-in pipeline behavior support, enabling clean separation of concerns via request/response and notification patterns.</Description>
+		<PackageTags>mediator;cqrs;pipeline;dotnet</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/net0well/medio</RepositoryUrl>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>
