@@ -1,16 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netstandard2.1</TargetFramework>
+		<TargetFrameworks>net8.0;netstandard2.1</TargetFrameworks>
 		<Nullable>enable</Nullable>
 
 		<!-- Informações do pacote -->
-		<PackageId>Medio</PackageId>
+		<PackageId>MedioPkg</PackageId>
 		<Version>1.0.0</Version>
-		<Authors>SeuNome</Authors>
+		<Authors>Wellington Neto</Authors>
 		<Description>Lightweight mediator for .NET with built-in pipeline behavior support, enabling clean separation of concerns via request/response and notification patterns.</Description>
 		<PackageTags>mediator;cqrs;pipeline;dotnet</PackageTags>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryUrl>https://github.com/net0well/medio</RepositoryUrl>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
