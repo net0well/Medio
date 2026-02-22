@@ -4,6 +4,6 @@ namespace SampleApi
 {
     public class Ping : IRequest<string>
     {
-        public string Message { get; set; } = "Ping!";
+        public string Message { get; set; } = string.Empty;
     }
 }

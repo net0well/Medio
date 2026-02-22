@@ -25,7 +25,6 @@ namespace Medio.Extensions
 
         private static Assembly[] ResolveAssemblies(object[] args)
         {
-            // Return ALL
             if (args == null || args.Length == 0)
             {
                 return AppDomain.CurrentDomain
@@ -34,11 +33,9 @@ namespace Medio.Extensions
                     .ToArray();
             }
 
-            // Return all informed (same behavior as above)
             if (args.All(a => a is Assembly))
                 return args.Cast<Assembly>().ToArray();
 
-            // Return filtered by namespace (most performatic)
             if (args.All(a => a is string))
             {
                 var prefixes = args.Cast<string>().ToArray();
