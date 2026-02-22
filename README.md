@@ -7,7 +7,7 @@ Lightweight mediator for .NET with built-in pipeline behavior support, enabling 
 ## Installation
 
 ```bash
-dotnet add package Medio
+dotnet add package MedioPkg
 ```
 
 ---
